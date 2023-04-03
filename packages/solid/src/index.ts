@@ -26,6 +26,7 @@ export {
   getOwner,
   runWithOwner,
   equalFn,
+  cleanNode,
   $DEVCOMP,
   $PROXY,
   $TRACK

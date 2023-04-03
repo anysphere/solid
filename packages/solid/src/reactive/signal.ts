@@ -1586,7 +1586,7 @@ function markDownstream(node: Memo<any>) {
   }
 }
 
-function cleanNode(node: Owner) {
+export function cleanNode(node: Owner) {
   let i;
   if ((node as Computation<any>).sources) {
     while ((node as Computation<any>).sources!.length) {
