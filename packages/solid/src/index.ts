@@ -48,7 +48,8 @@ export type {
   Owner,
   InitializedResource,
   InitializedResourceOptions,
-  InitializedResourceReturn
+  InitializedResourceReturn,
+  SignalOptions
 } from "./reactive/signal.js";
 
 
