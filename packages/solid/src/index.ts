@@ -26,6 +26,7 @@ export {
   catchError,
   onMount,
   runWithOwner,
+  cleanNode,
   startTransition,
   untrack,
   useContext,
